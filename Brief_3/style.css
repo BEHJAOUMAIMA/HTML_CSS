@@ -116,7 +116,7 @@ span{
   }
 
  section ul li a{
-    font-size: 12px;
+    font-size: 8px;
     
  }
  section ul{
@@ -166,4 +166,24 @@ span{
         margin-left: 0 ;
         text-align: center;
      }
+
+}
+@media print {
+    header img{
+        display: none;
+    }
+    header nav {
+        display: none;
+        
+
+    }
+    header{
+        height: 0px;
+    }
+    .imgCarte img{
+        width: 200px;
+        height: 200px;
+        
+    }
+    
 }
