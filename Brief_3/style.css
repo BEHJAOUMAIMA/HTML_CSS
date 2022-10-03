@@ -169,14 +169,10 @@ span{
 
 }
 @media print {
-    header img{
+    header {
         display: none;
     }
-    header nav {
-        display: none;
-        
-
-    }
+    
     header{
         height: 0px;
     }
